@@ -18,7 +18,7 @@ request.onsuccess = function(event) {
 
     if (navigator.onLine) {
       // we haven't created this yet, but we will soon, so let's comment it out for now
-      // uploadTransaction();
+      uploadTransaction();
     }
   };
   
